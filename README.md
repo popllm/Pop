@@ -1,3 +1,7 @@
+<p align="center">
+<img src="images/logo.png" alt="Pop Assistant Logo" width="160">
+</p>
+
 # Pop 助手
 
 一站式智能知识与生产力平台，重新定义您的信息工作流
