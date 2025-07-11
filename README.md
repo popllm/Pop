@@ -1,78 +1,125 @@
 <p align="center">
+  <a href="README-cn.md">简体中文</a> |
+  <a href="README-tw.md">繁體中文</a> |
+  <a href="README.md">English</a>
+</p>
+<p align="center">
 <img src="images/logo.png" alt="Pop Assistant Logo" width="160">
 </p>
 
-# Pop 助手
+# Pop Assistant
 
-一站式智能知识与生产力平台，重新定义您的信息工作流
+> All-in-one intelligent creation & information management platform
 
-**Pop 助手**集在线笔记、文档阅读与管理、智能绘图、个性化知识库以及 AI 对话协作于一体，为个人与团队提供从内容采集、创作到智能检索、决策支持的完整闭环。
+A unified platform for intelligent knowledge and productivity, redefining your information workflow.
 
-无论您是开发者、研究人员、市场运营、法律咨询师，还是拥有多重身份的自由职业者，**Pop** 都能显著提升信息管理效率与创新力，让灵感与价值同步迸发。
+**Pop Assistant** integrates online notes, document reading & management, smart drawing, mind mapping, personalized knowledge base, and AI collaboration. It provides a complete loop for individuals and teams, from content collection and creation to intelligent retrieval and decision support.
 
----
-
-## 📂 文档管理
-
-- **多格式支持**：支持上传并在线预览 PDF、DOCX、TXT、Markdown、EPUB、MOBI、CBZ、DJVU、FB2、AZW3 等主流格式。
-- **智能分类与搜索**：支持文件夹管理、标签系统、全文搜索、文件类型筛选等，快速定位所需内容。
+Whether you are a developer, researcher, marketer, legal consultant, or a multi-role freelancer, **Pop** will significantly boost your information management efficiency and creativity, letting inspiration and value burst forth together.
 
 ---
 
-## 💡 知识问答
+## 📂 Document Management Center
 
-- **个性化知识库**：按需构建知识库，集中管理重要资料，支持多格式导入与统一整合。
-- **智能问答引擎**：基于 AI 语义理解与知识推理，快速、准确回答专业或日常问题。
-
----
-
-## 📝 在线笔记
-
-- **灵活编辑**：支持 Markdown 与富文本，提供公式、代码、高亮图表等丰富编辑功能。
-- **离线优先**：本地 SQLite + 增量 CRDT 日志架构，断网编辑，联网秒级同步。
-- **多维链接**：笔记可引用文档段落、绘图节点或 AI 生成块，构建知识网络。
-- **实时同步与云备份**：多设备自动同步，确保内容一致，随时访问。
+- **Multi-format Support**: Upload and preview PDF, DOCX, TXT, Markdown, EPUB, MOBI, CBZ, DJVU, FB2, AZW3, and other mainstream formats online.
+- **Smart Classification & Search**: Manage folders, tag system, full-text search, file type filtering, and quickly locate the content you need.
+- **Fast Retrieval**: Accurate content targeting based on full-text search and tag system.
+  <p align="center">
+    <img src="images/screenshots/documents-homepage.png" alt="Pop" width="800" style="max-width:100%;">
+    <br>
+    <em>Pop Assistant · Document Management</em>
+  </p>
 
 ---
 
-## 🧠 绘图与可视化
+## 💡 Knowledge Q&A
 
-- **所见即得**：流程图、拓扑结构、系统架构图、手写草图均可拖拽构建，自动布局与配色。
-- **AI 草图生成**：输入如“绘制一个三层微服务架构”即可生成结构图。
-- **双向绑定**：图形块可链接笔记段落或文档，自动同步高亮。
-- **多格式输出**：SVG / PNG 高清导出，PDF 无损复制粘贴进 PPT 或 Keynote。
+- **Personalized Knowledge Base**: Build your own knowledge base as needed, centrally manage important materials, and support multi-format import and unified integration.
+- **Intelligent Q&A Engine**: Based on AI semantic understanding and knowledge reasoning, quickly and accurately answer professional or daily questions.
 
 ---
 
-## 🤖 AI 对话助手
+## 📝 Online Notes
 
-- **智能创作**：撰写报告、文章、文案等，AI 基于上下文智能生成内容。
-- **情感分析与优化**：自动识别文本情绪，提供语气建议，提升沟通表达。
-- **定制化建议**：根据用户偏好与历史记录，优化对话交互体验。
-
----
-
-## 🔐 隐私保护
-
-- **数据加密与安全存储**：全程加密传输与本地加密存储，遵循国际隐私标准。
-- **自定义隐私设置**：可自由设置权限和数据控制选项，掌握个人信息安全。
-
----
-
-## 🌍 多语言支持
-
-- **全球化体验**：支持多语言 UI 与 AI 响应，跨语言无障碍交互。
-- **智能翻译与本地化**：内置翻译引擎，支持实时翻译与本地语义优化。
+- **Flexible Editing**: Supports Markdown and rich text, with formulas, code, highlighted charts, and more.
+- **Offline First**: Local SQLite + incremental CRDT log architecture, edit offline, sync in seconds when online.
+- **Multi-dimensional Linking**: Notes can reference document paragraphs, drawing nodes, or AI-generated blocks to build a knowledge network.
+- **Real-time Sync & Cloud Backup**: Automatic multi-device sync to ensure content consistency and access anytime.
+  <p align="center">
+    <img src="images/screenshots/documents-editing.png" alt="Pop" width="800" style="max-width:100%;">
+    <br>
+    <em>Pop Assistant · Notes Editing</em>
+  </p>
 
 ---
 
-## ⚙️ 个性化设置
+## 🧠 Online Drawing
 
-- 自定义头像、昵称、主题（亮/暗）、语言、时区、字号与快捷键。
-- 启用笔记 AI 自动补全，调整对话参数如温度、Top-p 与格式排版。
-- 一键绑定多模型（如 OpenAI、DeepSeek），灵活启停工具链与工作流。
-- 所有配置即时生效，跨端同步，适应您的工作节奏。
+- **WYSIWYG**: Drag and drop to build flowcharts, topology, system architecture, and hand-drawn sketches, with auto layout and coloring.
+- **AI Sketch Generation**: Enter prompts like "draw a three-layer microservice architecture" to generate diagrams.
+- **Bidirectional Linking**: Graphic blocks can link to note paragraphs or documents, with auto highlight sync.
+- **Multi-format Export**: Export as SVG/PNG in high definition, PDF for lossless copy-paste into PPT or Keynote.
+
+    <p align="center">
+  <img src="images/screenshots/documents-drawing-info.png" alt="Pop" width="800" style="max-width:100%;">
+  <br>
+  <em>Pop Assistant · Online Drawing</em>
+  </p>
+
+## 🗺️ Mind Mapping
+
+Structure knowledge as a graph to aid thinking and collaboration.
+
+- **Structured Expression**: Freely drag nodes, branches, and topics to quickly build a clear knowledge tree.
+- **AI Smart Expansion**: Enter a topic or question, and AI will automatically generate branch suggestions to assist brainstorming and knowledge sorting.
+- **Diverse Styles**: Rich theme colors, node icons, and layout options to meet different scenarios.
+- **Content Linking**: Nodes can be linked to notes, documents, tasks, or AI-generated content to build a multi-dimensional knowledge network.
+- **Easy Export**: One-click export as SVG, PNG, etc., for easy embedding in reports or presentations.
+
+  <p align="center">
+  <img src="images/screenshots/mind-map.png" alt="Pop Mind Map" width="800" style="max-width:100%;">
+  <br>
+  <em>Pop Assistant · Mind Map Feature</em>
+  </p>
 
 ---
 
-> **Pop 助手**，致力于为您提供一站式的信息管理和智能互动体验，让工作与生活更加高效、便捷与智能！
+## 🤖 AI Assistant
+
+- **Intelligent Creation**: Write reports, articles, copywriting, etc., with AI generating content based on context.
+- **Multi-role Collaboration**: Switch between multiple AI roles for endless inspiration.
+- **Sentiment Analysis & Optimization**: Automatically detect text sentiment and provide tone suggestions to improve communication.
+- **Personalized Suggestions**: Optimize dialogue experience based on user preferences and history.
+  <p align="center">
+    <img src="images/screenshots/chat-multi-windows.png" alt="Pop" width="800" style="max-width:100%;">
+    <br>
+    <em>Pop Assistant · AI Chat</em>
+  </p>
+
+---
+
+## 🔐 Privacy Protection
+
+- **Data Encryption & Secure Storage**: End-to-end encrypted transmission and local encrypted storage, compliant with international privacy standards.
+- **Custom Privacy Settings**: Freely set permissions and data control options to manage your personal information security.
+
+---
+
+## 🌍 Multilingual Support
+
+- **Global Experience**: Supports multilingual UI and AI responses for seamless cross-language interaction.
+- **Smart Translation & Localization**: Built-in translation engine for real-time translation and local semantic optimization.
+
+---
+
+## ⚙️ Personalization
+
+- Customize avatar, nickname, theme (light/dark), language, timezone, font size, and shortcuts.
+- Enable AI autocomplete for notes, adjust dialogue parameters such as temperature, Top-p, and formatting.
+- One-click binding of multiple models (e.g., OpenAI, DeepSeek), flexible toolchain and workflow control.
+- All settings take effect instantly and sync across devices to fit your workflow.
+- Every setting is designed to enhance your focus and creative efficiency.
+
+---
+
+> **Pop Assistant** — Make your information more organized and your creation more efficient!
